@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.form-containder{
+    max-width: 680px;
+    margin: 0 28px;
+    padding: 28px;
+    box-shadow: 0 0 20px 10px #abb289;
+    border-radius: 8px;
+    background: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #b38d97;
+}
+.form-containder h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: larger;
+
+}
+.form-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 22px 0;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+.form-input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 7px 0;
+    
+}
+.form-input:nth-child(2n){
+    justify-content: end;
+}
+.form-input label, .gender-title{
+    width: 95%;
+    color: #b38d97;
+    font-weight: 500;
+    margin:10px 0;
+}
+.gender-title{
+    font-size: large;
+    
+}
+.form-input input{
+    width: 95%;
+    height: 35px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid rgb(221, 210, 210);
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+}
+.form-input input:hover{
+    box-shadow: 0 2px 4px rgb(105, 100, 100);
+    border: 1px solid #b38d97;
+    transition: 0.7s;
+}
+.form-input input:is(:focus, :valid){
+    box-shadow: 0 2px 4px rgb(105, 100, 100);
+    border: 1px solid #b38d97;
+}
+.gender-style{
+    color: grey;
+    
+    font-size: small;
+}
+.gender-style label{
+    padding: 0 25px 0 2px;
+    cursor: pointer; 
+}
+.gender-style input{
+    cursor: pointer;
+    accent-color: rgb(221, 210, 210);
+
+}
+.gender-style input{
+    box-shadow: 0 2px 4px rgb(105, 100, 100);
+}
+.form-btn{
+    margin:10px 0;
+}
+.form-btn button{
+    width: 100%;
+    padding: 12px;
+    background-image: linear-gradient(45deg, #b38d97 0%, #b17686 40%, #b38d97 100%);;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: larger;
+    cursor: pointer;
+    transition:  0.9s;
+}
+.form-btn button:hover{
+    background-image: linear-gradient( #b38d97 0%, #b17686 100%);
+    box-shadow: 0 0 5px 2px#a09699;
+    
+    transition: 0.7s;
+    
+}
+.chk-box{
+    display: flex;
+    align-items: start;
+}
+.chk-box input{
+    margin-top: 5px;
+    accent-color: rgb(221, 210, 210);
+}
+.chk-box p{
+    margin-left: 20px;
+    font-size: smaller;
+}
+@media(max-width:600px){
+
+    body{
+        margin: 10px 0;
+        display: block;
+    }
+    
+    .form-input{
+        
+        width: 100%;
+
+    }
+    .form-input:nth-child(2n){
+        justify-content: space-between;
+    }
+
+
+}

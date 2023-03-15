@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-container{
+    width: 60%;
+    margin:100px auto;
+    padding: 26px;
+    background:rgb(0,0,0);
+    opacity: 0.5;
+    border-radius: 8px;
+}
+
+.form-width{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0; 
+   
+}
+.input {
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 33%;
+}
+.input input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+.input label{
+    color: aliceblue;
+    font-size: small;
+    font-weight: 600;
+}
+fieldset{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+legend{
+    color: aliceblue;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+fieldset label{
+    color: aliceblue;
+    font-size: small;
+    font-weight: 600;
+    
+}
+fieldset input{
+    cursor: pointer;
+    margin: 0 15px;
+    
+}
+button{
+    width: 100%;
+    color: black;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+form h2{
+    color: aliceblue;
+    text-align: center;
+}
+label{
+    color: aliceblue;
+    font-size: small;
+    font-weight: 600;
+}
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: small;
+}

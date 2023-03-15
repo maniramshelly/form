@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <form action=""><h2 style="text-align: center;">Simple Form </h2>
+        <label for="name"><h5>Name: </h5> <input type="text" id="name" placeholder="Enter your name"></label>
+        <label for="city"><h5>City: </h5><input type="text" id="city" placeholder="City"></label>
+        <label for="phon"><h5>Mobile: </h5><input type="number" placeholder="Mobile no."></label>
+        <label for="email"><h5>Email: </h5><input type="email" id="email" placeholder="Email"></label>
+        
+        <label for="gender"><h5>Gender: </h5>
+            <fieldset>
+           Male<input type="radio" name="gender" id="gender" value="Male" >
+            Female<input type="radio" name="gender" id="gender"  value="Female">
+            Transgender<input type="radio" name="gender" id="gender"  value="Transgender">
+        </fieldset>
+        </label>
+        
+        <label for="msg"><h5>Message: </h5><textarea name="msg" id="msg" cols="30" rows="10"></textarea></label>
+        <label for="skill"><h5>What you want to learn: </h5><br>
+            <fieldset>
+            HTML & CSS<input type="checkbox" value="HTML/CSS">
+            Java Script<input type="checkbox" value="JavaScript">
+            ReactJS<input type="checkbox" value="ReactJS"> 
+            Node.JS<input type="checkbox" value="Node.JS">
+            Paython<input type="checkbox" value="Paython">
+            </fieldset>
+        </label>
+        <label for="file" id="file"><b>Upload your pic </b><input type="file"> </label>
+        <label for="submit"><input type="submit" value="sumit"></label>
+        
+    </form>
+</body>
+</html>

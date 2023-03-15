@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: #ecf0f3;
+    letter-spacing: 1.1px;    
+}
+
+/*form container*/
+.container{
+    width: 40%;
+    margin:50px auto;
+    box-shadow: 0 0 3px 3px #cbced1;
+    padding: 28px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #ecf0f3;
+    overflow: hidden;
+    
+}
+
+/*logo image settings*/
+.logo{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.logo img{
+    margin: auto;
+    max-width: 220px;
+}
+/*form setting*/
+.basic-info{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/*various form feilds setting up*/
+.inputs{
+    margin: 5px 0;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.inputs label{
+    padding-bottom: 10px;
+}
+.inputs
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    width: 100%;
+    border: none;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    background: #ecf0f3;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 7px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+span button{
+   
+    padding:10px 20px;
+    background: #ecf0f3;
+    box-shadow: 0 0 5px 5px #cbced1;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+span button:hover{
+    background: rgb(255, 247, 247);
+}
