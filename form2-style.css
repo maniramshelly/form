@@ -8,7 +8,23 @@ body{
     background: #ecf0f3;
     letter-spacing: 1.1px;    
 }
-
+.back{
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.back a{
+    text-decoration: none;
+    color: black;
+    background: rgba(193,245,0);
+    opacity: .7;
+    padding: 3px;
+    border-radius: 5px;
+}
+.back a:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
 /*form container*/
 .container{
     width: 40%;
